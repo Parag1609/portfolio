@@ -1,0 +1,10 @@
+{
+  "homepage": "https://Parag1609.github.io/portfolio",
+  "scripts": {
+    "predeploy": "echo Skipping build step for static site",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
