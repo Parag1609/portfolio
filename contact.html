@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Parag <span>Jain</span>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="videos.html">Videos</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="videos.html">Videos</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="main-container">
+            <div class="content" data-aos="fade-right" data-aos-duration="1500">
+                <h1>Contact <span>Me</span></h1>
+                <p>Feel free to reach out to me through any of the platforms below or via the provided address.</p>
+            </div>
+            <div class="social-links" data-aos="fade-up" data-aos-duration="1500">
+                <a href="https://github.com/Parag1609/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/parag-jain-8466a524a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_jain_parag/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:jnvyparag2018@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="address" data-aos="fade-left" data-aos-duration="1500">
+                <h2>Address</h2>
+                <p>RNT Boys Hostel,<br>Indore, MP, 452001,<br>India</p>
+                <p>Phone: +91 9111805618</p>
+                <p>Email: <a href="mailto:jnvyparag2018@gmail.com">jnvyparag2018@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

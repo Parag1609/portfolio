@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Parag <span>Jain</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="about.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="videos.html">Data Science</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#contact.html">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="videos.html">Data Science</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-section">
+        <div class="main-container">
+            <div class="content" data-aos="fade-right" data-aos-duration="1500">
+                <h1>About <span>Me</span></h1>
+                <p>
+                    Hello! I'm Parag Jain, a passionate and dedicated Full Stack Developer specializing in the MERN stack. I have a strong foundation in creating efficient and scalable web applications. With a keen eye for design and a love for coding, I thrive on turning ideas into functional and user-friendly solutions.
+                </p>
+                <p>
+                    My journey in web development started with a curiosity to understand how websites work and evolved into a full-blown passion. I enjoy solving complex problems and delivering clean, efficient code.
+                </p>
+            </div>
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="about.jpg" alt="About Me">
+            </div>
+        </div>
+    </section>
+
+    <section class="education-section">
+        <div class="main-container">
+            <div class="content" data-aos="fade-left" data-aos-duration="1500">
+                <h1>Education</h1>
+                <ul>
+                    <li><strong>Master of Technology (Integrated)Information Technology CGPA 9+</strong><br> International Institute of Professional Studies Devi Ahilya Vishwavidyalaya, Indore (2022 - Present)</li>
+                    <li><strong>Higher Secondary Education Grade-94.40% </strong><br>Jawahar Navodaya Vidyalaya, Jabalpur (2021-22)</li>
+                    <li><strong>Secondary School Education Grade-93.20% </strong><br>Jawahar Navodaya Vidyalaya, Jabalpur (2019-20)</li>
+                    
+
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
