@@ -1,0 +1,66 @@
+<!-- Projects Section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Parag <span>Jain</span></div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="videos.html">Submission</a>
+                <a href="contact.html">Contact</a>
+                <a href="projects.html">Projects</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="videos.html">Submission</a>
+                <a href="contact.html">Contact</a>
+                <a href="projects.html">Projects</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects-section" id="projects">
+        <div class="main-container">
+            <div class="content">
+                <h1>My <span>Projects</span></h1>
+                <p>Here are some of the projects I have worked on. Each one showcases my skills and passion for development.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="arc1.jpg" alt="Project 1">
+                    <h3>ARC</h3>
+                    <p>Ambulance Route Control (ARC) a cutting edge system designed to tackle traffic congestion for emergency vehicles like ambulances</p>
+                    </div>
+    
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="music.jpg" alt="Project 2">
+                    <h3>Music Player</h3>
+                    <p>A fully responsive music player developed with HTML, CSS and pure JavScript</p>
+                    <a href="https://github.com/Parag1609/Spotify-clone" target="_blank" class="source-link">Source Code</a>
+                </div>
+    
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
